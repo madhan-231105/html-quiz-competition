@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Competition Introduction</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #start-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #start-btn:hover {
+            background-color: #0056b3;
+
+        }
+        #login-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#login-btn:hover {
+    background-color: #218838;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo/logo.png" width="150" height="150">
+        <h1>WELCOME TO AMAZING CLUB</h1>
+    </header>
+
+    <div class="container">
+        <p>In our Amazing Club we are going to conduct a HTML quiz competition.This quiz competition will 
+            challenge your intellect and test your knowledge in various topics in HTML.This competition is designed
+            to challenge your understanding oh Hypertext Markup Language-the backbone of the internet. Whether
+            you are a beginner or an HTML aficionado,this competition promises an engaging and 
+            fun-filled experience for all.
+            <h3>Who Can Participate?</h3>
+                This Competition is open to HTML enthusiasts of all levels.Whether you are a student,professional,
+                or just someone passioinate about coding and web development,this quiz is for you.
+               
+        </p>
+        <p>Are you ready to get started?  Register Below</p>
+        <a href="registration.HTML">
+        <button id="start-btn">REGISTER</button>
+        </a>
+        <center>
+            <h3>If already registered you can start by login</h3>
+        </center>
+        <a href="login.html">
+            <button id="login-btn">LOGIN</button>
+        </a>
+    </div>
+    <hr>
+    <address>
+        AMAZING CLUB,
+        CIT CAMPUS,
+        COIMBATORE.
+        📧=amazingclub@gmail.com
+    </address>
+    
+<script>
+        document.getElementById("start-btn").addEventListener("click", function()
+         { 
+            alert("start you registration");
+        });
+    </script>
+</body>
+</html>
+
