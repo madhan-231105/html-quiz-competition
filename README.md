@@ -10,8 +10,6 @@ This mini-project implements an online HTML quiz competition platform. It demons
 ## Demo
 🔗 **Live Site:** https://amazing-club-event-page.vercel.app
 
-*(If your landing page is `index.html`, you don’t need `/index.html` at the end.)*
-
 ## Key Features
 - Fully responsive layout (desktop, tablet, mobile)
 - Registration form for participant details
