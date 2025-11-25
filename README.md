@@ -20,8 +20,7 @@
 This mini project implements an online HTML quiz competition. It demonstrates practical usage of semantic HTML, responsive CSS, and vanilla JavaScript for interactivity and navigation. The quiz contains multiple-choice questions about HTML concepts, scoring, and a registration form to collect participant details.
 
 ## Demo
-*(Add a live demo link when deployed, e.g. GitHub Pages)*  
-Example: `https://yourusername.github.io/html-quiz-competition/`
+amazing-club-event-page.vercel.app/index.html
 
 ## Key features
 - Responsive layout (desktop / tablet / mobile)
